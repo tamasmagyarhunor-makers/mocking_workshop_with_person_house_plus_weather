@@ -8,7 +8,7 @@ def test_house_instantiates():
 
 def test_house_open_door():
     house = House()
-    person = Person('Hunor', 37)
+    person = Person('Hunor', 3)
 
     house.open_door(person)
 
